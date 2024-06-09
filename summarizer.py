@@ -2,7 +2,6 @@ from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
 
-# Example legal document text
 document_text = """
                 This License Agreement ("Agreement") is made and entered into by and between Company X, a corporation organized and existing under the laws of the State of California, with its principal place of business at 123 Main Street, Cityville, California, and User Y, an individual residing at 456 Oak Avenue, Townville, California.
 
@@ -30,15 +29,13 @@ IN WITNESS WHEREOF, the parties have executed this Agreement as of the date firs
 
                 """
 
-# Parse the document text
 parser = PlaintextParser.from_string(document_text, Tokenizer("english"))
 
-# Initialize the LSA summarizer
+
 lsa_summarizer = LsaSummarizer()
 
-# Get the summary with 1 sentence (for brevity)
 summary = lsa_summarizer(parser.document, 1)
 
-# Print the summary
+
 for sentence in summary:
     print(sentence)
