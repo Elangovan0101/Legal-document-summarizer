@@ -1,46 +1,25 @@
-# Legal Document Summarizer
+# Legal Document Summarizer: Extracting Legal Insights with NLP 📜💡
 
-An AI-powered system designed to extract and summarize key legal information from complex legal documents using advanced Natural Language Processing (NLP) techniques. This project leverages SpaCy for preprocessing and entity extraction, and Sumy for text summarization, to generate concise summaries of lengthy legal texts.
+Welcome to the GitHub repository for the Legal Document Summarizer project! 🌟 This project leverages advanced Natural Language Processing (NLP) techniques to extract key insights from complex legal documents, making legal analysis more efficient and accessible.
 
-## Table of Contents
+## What's Inside:
 
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Example](#example)
-7. [Project Structure](#project-structure)
-8. [Contributing](#contributing)
-9. [License](#license)
+### 1. Data Loading and Preprocessing:
+- Clean and preprocess legal documents to prepare them for analysis.
+- Normalize text and remove irrelevant characters and stopwords.
 
-## Introduction
+### 2. Text Processing and Analysis:
+- Utilize Named Entity Recognition (NER) to identify key entities such as parties, dates, and legal clauses.
+- Perform sentiment analysis to gauge the tone and sentiment of the legal text.
+- Apply topic modeling techniques to extract major themes and topics from the documents.
 
-Legal documents are often dense and filled with technical language, making them difficult for non-experts to interpret. This project addresses this challenge by using NLP techniques to extract essential clauses and generate summaries, helping users quickly grasp the key points of any legal text.
+### 3. Summarization Techniques:
+- Implement both extractive and abstractive summarization methods to generate concise summaries of legal documents.
+- Extract key sentences or paragraphs verbatim for extractive summarization.
+- Generate summaries by paraphrasing and rephrasing the content for abstractive summarization.
 
-This project is particularly useful for:
-- Legal professionals who need to review large volumes of documents quickly.
-- Individuals without a legal background who need to understand the gist of legal documents.
-- Researchers and analysts looking for an efficient way to process legal texts.
-
-## Features
-
-- **Key Information Extraction**: Identifies and extracts important clauses and sections from legal documents.
-- **Text Summarization**: Creates concise summaries that highlight the most critical information.
-- **User-Friendly Interface**: Simple to use with clear inputs and outputs.
-- **Scalable and Customizable**: Easily adaptable to various types of legal documents and can be extended to include additional functionalities.
-
-## Technologies Used
-
-- **Python**: The core programming language for this project.
-- **SpaCy**: Used for preprocessing, tokenization, and entity extraction.
-- **Sumy**: Utilized for text summarization.
-- **NLTK**: Supports various NLP tasks including tokenization and stopword removal.
-
-## Installation
-
-To get started, clone the repository and install the required dependencies:
-
+## Get Started:
+1. **Clone the Repository:**
 ```bash
-git clone
-https://github.com/Elangovan0101/Legal-document-summarizer.git
+git clone https://github.com/Elangovan0101/legal-document-summarizer.git
+cd legal-document-summarizer
