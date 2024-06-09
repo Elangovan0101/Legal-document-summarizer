@@ -27,14 +27,19 @@ Relevant legal clauses, entities, and dates are highlighted for clarity.
 Usage
 Clone the repository:
 
-git clone https://github.com/Elangovan0101/legal-document-summarizer.git
+bash
+Copy code
+git clone https://github.com/yourusername/legal-document-summarizer.git
 Install the required dependencies:
 
+bash
+Copy code
 pip install -r requirements.txt
 Run the Python script:
 
+bash
+Copy code
 python legal_summarizer.py
-
 Results
 The legal document summarizer generates concise summaries that capture the essential information from complex legal documents. Users can quickly understand the key clauses, entities, and dates without having to read through lengthy texts.
 
