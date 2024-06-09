@@ -43,3 +43,4 @@ To get started, clone the repository and install the required dependencies:
 
 ```bash
 git clone
+https://github.com/Elangovan0101/Legal-document-summarizer.git
